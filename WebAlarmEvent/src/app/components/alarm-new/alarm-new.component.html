@@ -106,21 +106,71 @@
     </div>
   </div>
 
-</div>
-</div>
+  <div class="row" >
+    <div class="col-1">
+      <mat-icon>
+        volume_up
+       </mat-icon>
+    </div>
+    <div class="col-11">
 
-
-</div>
-
-<div class="example-button-row">
-<div class="example-flex-container">
-  <div class="example-button-container">
-    <button mat-fab   id="btnAdd" routerLink="crear">
-      <mat-icon>add</mat-icon>
-    </button>
+      <mat-slider  thumbLabel="thumbLabel"  color="primary" style="width: 100%;">
+      </mat-slider>
+    </div>
   </div>
+
+  <div class="row" >
+    <div class="col-1">
+      <mat-icon>
+        mic
+       </mat-icon>
+    </div>
+    <div class="col-11">
+      <mat-slide-toggle color="primary">
+      </mat-slide-toggle>
+    </div>
+  </div>
+
+
+  <div class="row" >
+    <div class="col-1">
+      <mat-icon>
+        event
+       </mat-icon>
+    </div>
+    <div class="col-11">
+      <mat-form-field appearance="fill" style="width: 100%;">
+        <mat-label>Días</mat-label>
+        <mat-select multiple>
+          <mat-option *ngFor="let dia of listDias" [value]="dia">{{dia}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+
+
 </div>
 </div>
+
+
+</div>
+
+</div>
+
+
+<div class="container" id="buttonsLogin" style="margin-top: 30px;">
+  <button mat-raised-button id="buttonCancel" routerLink="/dashboard">
+    <mat-icon>
+      cancel
+    </mat-icon>
+    Cancelar
+  </button>
+  <button mat-raised-button id="buttonRegister" (click)="crear()">
+    <mat-icon>
+      check_circle
+    </mat-icon>
+    Aceptar
+  </button>
 </div>
 
 

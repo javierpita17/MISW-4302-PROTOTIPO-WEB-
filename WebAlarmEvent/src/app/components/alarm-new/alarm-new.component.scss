@@ -85,3 +85,30 @@ h1, h2, h3{
   margin: 5px;
 }
 
+
+#buttonsLogin{
+  text-align: center;
+}
+
+#buttonIngress{
+  background-color: rgb(107, 237, 92);
+  margin-right: 20px;
+  border-radius: 15px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: bold ;
+}
+
+#buttonCancel{
+  background-color: rgb(250, 65, 10);
+  border-radius: 15px;
+  margin-right: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: bold ;
+}
+
+#buttonRegister{
+  background-color: rgb(116, 195, 214);
+  border-radius: 15px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: bold ;
+}

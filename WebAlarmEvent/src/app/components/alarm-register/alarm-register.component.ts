@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import  Swal  from 'sweetalert2'
+import  Swal  from 'sweetalert2';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-alarm-register',
@@ -8,7 +9,7 @@ import  Swal  from 'sweetalert2'
 })
 export class AlarmRegisterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
@@ -19,6 +20,8 @@ export class AlarmRegisterComponent implements OnInit {
       title: 'Usuario creado con éxito',
       showCloseButton: true,
       confirmButtonText: 'Aceptar',
+    }).then(res => {
+      this.router.navigate(['']);
     })
   }
 

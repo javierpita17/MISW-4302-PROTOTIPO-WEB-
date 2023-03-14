@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import  Swal  from 'sweetalert2';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-alarm-new',
@@ -7,9 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlarmNewComponent implements OnInit {
 
-  constructor() { }
+  listDias: string[] = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'];
+
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+
+  public crear():void{
+    Swal.fire({
+      icon: 'success',
+      title: 'Alarma creada con éxito',
+      showCloseButton: true,
+      confirmButtonText: 'Aceptar',
+    }).then(res => {
+      this.router.navigate(['/dashboard']);
+    })
   }
 
 }

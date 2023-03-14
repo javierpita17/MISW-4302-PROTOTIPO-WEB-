@@ -6,9 +6,9 @@ import { AlarmNewComponent } from './components/alarm-new/alarm-new.component';
 import { AlarmRegisterComponent } from './components/alarm-register/alarm-register.component';
 
 const routes: Routes = [
+  {path: 'crear', component: AlarmNewComponent},
   {path: 'registro', component: AlarmRegisterComponent},
   {path: 'dashboard', component: AlarmDashboardComponent},
-  {path: 'crear', component: AlarmNewComponent},
   {path: '', component: AlarmLoginComponent},
 ];
 
