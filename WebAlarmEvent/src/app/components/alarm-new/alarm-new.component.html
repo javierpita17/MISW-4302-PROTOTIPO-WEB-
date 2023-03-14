@@ -1,0 +1,126 @@
+
+<br>
+
+
+<div class="row">
+
+<div class="col-11">
+  <div class="col-sm">
+    <h1 id="titulo" style="text-align: center; padding-left: 9.2%;" >Crear Alarma</h1>
+  </div>
+</div>
+
+<div class="col-1">
+
+
+
+  <button mat-icon-button routerLink="">
+    <mat-icon aria-label="Example icon-button with a heart icon" style="font-size: 48px; color: rgb(250, 65, 10);">curtains_closed</mat-icon>
+  </button>
+
+
+</div>
+
+
+</div>
+
+<br>
+<div class="container" id="banner">
+<img src="../../../assets/images/reloj.png"/>
+</div>
+<br>
+<br>
+
+
+
+<div class="container">
+
+<div class="box">
+
+<div class="box-cell box1">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label" id="labelInput">Nombre de la alarma</label>
+    <input type="text" class="form-control" id="inputAlarm" aria-describedby="emailHelp" placeholder="Escriba nombre de la alarma">
+  </div>
+
+  <div class="mb-3">
+  <label for="exampleInputEmail1" class="form-label" id="labelInput">Seleccione tipo de alarma</label>
+
+  <mat-list role="list" style="background-color: white;">
+    <mat-list-item>
+      <mat-radio-button color="primary" matLine style="height: 35px;">Evento social</mat-radio-button>
+      <mat-radio-button color="primary" matLine style="height: 35px;">Deporte</mat-radio-button>
+      <mat-radio-button color="primary" matLine style="height: 35px;">Evento religioso</mat-radio-button>
+      <mat-radio-button color="primary" matLine style="height: 35px;">Universidad</mat-radio-button>
+      <mat-radio-button color="primary" matLine style="height: 35px;">Otro</mat-radio-button>
+    </mat-list-item>
+  </mat-list>
+
+  </div>
+
+</div>
+
+
+<div class="cajaDatos" >
+<div class="container" style="margin-left: 20%;">
+  <div class="row" style="text-align: left;">
+    <div class="col-1">
+      <mat-icon>
+        schedule
+       </mat-icon>
+    </div>
+    <div class="col-3">
+      <mat-form-field appearance="fill" style="width: 100%;">
+        <mat-label>Hora</mat-label>
+        <input matInput  type="number" min="1" max="12">
+    </mat-form-field>
+    </div>
+    <div class="col-3">
+      <mat-form-field appearance="fill" style="width: 100%;">
+        <mat-label>Minuto</mat-label>
+        <input matInput  type="number" min="1" max="60">
+      </mat-form-field>
+    </div>
+    <div  class="col-5">
+      <mat-form-field appearance="fill" style="width: 100%;">
+        <mat-label>Seleccione</mat-label>
+        <mat-select>
+          <mat-option value="option1">AM</mat-option>
+          <mat-option value="option3">PM</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+
+  <div class="row" >
+    <div class="col-1">
+      <mat-icon>
+        location_on
+       </mat-icon>
+    </div>
+    <div class="col-11">
+      <mat-form-field appearance="fill" style="width: 100%;">
+        <mat-label>Lugar</mat-label>
+        <input matInput  type="text" min="1" max="200" placeholder="Escriba el nombre del lugar del evento">
+    </mat-form-field>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="example-button-row">
+<div class="example-flex-container">
+  <div class="example-button-container">
+    <button mat-fab   id="btnAdd" routerLink="crear">
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+</div>
+</div>
+</div>
+
+

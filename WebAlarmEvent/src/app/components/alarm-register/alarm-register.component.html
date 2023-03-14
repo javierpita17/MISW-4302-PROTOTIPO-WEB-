@@ -36,13 +36,13 @@
   </div>
 
   <div class="container" id="buttonsLogin">
-    <button mat-raised-button id="buttonCancel">
+    <button mat-raised-button id="buttonCancel" routerLink="">
       <mat-icon>
         cancel
       </mat-icon>
       Cancelar
     </button>
-    <button mat-raised-button id="buttonRegister">
+    <button mat-raised-button id="buttonRegister" (click)="login()">
       <mat-icon>
         check_circle
       </mat-icon>

@@ -1,0 +1,69 @@
+img{
+  width: 200px;
+  text-align: center;
+}
+
+#banner{
+  text-align: center;
+}
+
+
+#titulo{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold ;
+}
+
+
+
+#inputAlarm{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+
+.box {
+ display : flex;
+ flex-direction : row;
+}
+
+.box .box-cell.box1 {
+   text-align:left;
+   width: 40%;
+   margin-right: auto;
+}
+
+.box .box-cell.box2 {
+  text-align:left;
+  background-color: white;
+  width: 30%;
+  padding-right: 5%;
+}
+
+
+#tiposAlarmas{
+  background-color: rgb(225, 218, 218);
+  height: 50px;
+  width: 500px;
+}
+
+
+#itemListaTipos{
+  width: 100%;
+  margin-right: 50%;
+  background-color: aqua;
+}
+
+
+#icon-class{
+  width: 10%;
+}
+
+h1, h2, h3{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#btnAdd{
+  background-color: rgb(98 , 0, 238);
+}
