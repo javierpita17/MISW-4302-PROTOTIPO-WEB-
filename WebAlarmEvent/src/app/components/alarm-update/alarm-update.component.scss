@@ -1,0 +1,114 @@
+img{
+  width: 200px;
+  text-align: center;
+}
+
+#banner{
+  text-align: center;
+}
+
+
+#titulo{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold ;
+}
+
+
+
+#inputAlarm{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+
+.box {
+ display : flex;
+ flex-direction : row;
+}
+
+.box .box-cell.box1 {
+   text-align:left;
+   width: 40%;
+   margin-right: auto;
+}
+
+.box .box-cell.box2 {
+  text-align:left;
+  background-color: white;
+  width: 40%;
+}
+
+.cajaDatos{
+  text-align:left;
+  width: 50%;
+  padding-right: 10%;
+}
+
+
+#tiposAlarmas{
+  background-color: rgb(225, 218, 218);
+  height: 50px;
+  width: 500px;
+}
+
+
+#itemListaTipos{
+  width: 100%;
+  margin-right: 50%;
+  background-color: aqua;
+}
+
+
+#icon-class{
+  width: 10%;
+}
+
+h1, h2, h3{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#btnAdd{
+  background-color: rgb(98 , 0, 238);
+}
+
+
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  align-items: flex-start;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+
+#buttonsLogin{
+  text-align: center;
+}
+
+#buttonIngress{
+  background-color: rgb(107, 237, 92);
+  margin-right: 20px;
+  border-radius: 15px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: bold ;
+}
+
+#buttonCancel{
+  background-color: rgb(250, 65, 10);
+  border-radius: 15px;
+  margin-right: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: bold ;
+}
+
+#buttonRegister{
+  background-color: rgb(116, 195, 214);
+  border-radius: 15px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: bold ;
+}

@@ -41,36 +41,36 @@
     <mat-list role="list">
       <mat-divider></mat-divider>
       <mat-list-item role="listitem">Alarma partido de fútbol
-        <mat-icon  style="margin-left: auto;">
-          edit
-        </mat-icon>
-        <mat-icon  style="margin-left: 0%;">
-          delete
-        </mat-icon>
+        <button mat-icon-button routerLink="/actualizar" style="margin-left: auto;">
+          <mat-icon>edit</mat-icon>
+        </button>
+        <button mat-icon-button  style="margin-left: 0%;" (click)="eliminar()">
+          <mat-icon>delete</mat-icon>
+        </button>
       </mat-list-item>
       <mat-divider></mat-divider>
       <mat-list-item role="listitem">Alarma cumpleaños hermana
-        <mat-icon  style="margin-left: auto;">
-          edit
-        </mat-icon>
-        <mat-icon  style="margin-left: 0%;">
-          delete
-        </mat-icon>
+        <button mat-icon-button routerLink="/actualizar" style="margin-left: auto;">
+          <mat-icon>edit</mat-icon>
+        </button>
+        <button mat-icon-button  style="margin-left: 0%;" (click)="eliminar()">
+          <mat-icon>delete</mat-icon>
+        </button>
       </mat-list-item>
       <mat-divider></mat-divider>
       <mat-list-item role="listitem">Alarma Parcial de Cálculo
-        <mat-icon  style="margin-left: auto;">
-          edit
-        </mat-icon>
-        <mat-icon  style="margin-left: 0%;">
-          delete
-        </mat-icon>
+        <button mat-icon-button routerLink="/actualizar" style="margin-left: auto;">
+          <mat-icon>edit</mat-icon>
+        </button>
+        <button mat-icon-button  style="margin-left: 0%;" (click)="eliminar()">
+          <mat-icon>delete</mat-icon>
+        </button>
       </mat-list-item>
       <mat-divider></mat-divider>
       <mat-list-item role="listitem"></mat-list-item>
       <mat-divider></mat-divider>
     </mat-list>
-    <h3>Ninguna alarma registrada</h3>
+
   </div>
 
 

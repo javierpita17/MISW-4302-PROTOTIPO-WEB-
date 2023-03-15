@@ -19,6 +19,7 @@ import { MatSelectModule } from '@angular/material/select'
 import { MatSliderModule } from '@angular/material/slider';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { AlarmUpdateComponent } from './components/alarm-update/alarm-update.component';
 
 
 
@@ -28,7 +29,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     AlarmLoginComponent,
     AlarmRegisterComponent,
     AlarmDashboardComponent,
-    AlarmNewComponent
+    AlarmNewComponent,
+    AlarmUpdateComponent
   ],
   imports: [
     BrowserModule,
